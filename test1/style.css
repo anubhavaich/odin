@@ -199,19 +199,77 @@ body,html {
     height: 450px;
     background: rgba(0, 0, 0, 0.7) url(view.jpg);
     background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .text{
-    color: pink;
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 10%;
 }
 .text h1{
-    margin-top: 0;
+    margin: 0;
     color: white;
 }
 .text p{
     font-size: 14px;
     color: white;
+    margin: 0;
+    padding-top: 24px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 40px;
 }   
-
+.numbers{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    margin: 0;
+    justify-content: center;
+}
+.segments{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 32px;
+    padding-right: 32px;
+    align-items: baseline;
+}
+.segments h2{
+    margin: 0;
+    padding-right: 8px;
+}
+.segments p{
+    font-size: 12px;
+    color: rgb(183, 33, 81);
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 16px;
+    justify-content: space-around;
+}
+.ico{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.icons a{
+        display: inline-block;
+}
+    object{
+        pointer-events: none;
+        height: 36px;
+        width: auto;
+}
+.go{
+    height: 44px;
+    width: auto;
+}
